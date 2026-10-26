@@ -19,6 +19,8 @@ Brief: keep the darkroom / film-developing world the app already uses (frames, d
 | **Night Roll** | A roll of film shot after dark; kept out of sight | none (closest: "Roll." apps) | none | a McKenzie lumbar pillow (different field) | Moody, easy to say |
 | **Ravenroll** | Raven = secrets and night; roll = film | none (Raven payments and games exist) | none | none | Most distinctive and ownable; Gothic |
 | **Coal Room** | The pitch-black cellar; echoes "darkroom" | none | none | none | Closest in sound to Darkroom, so an easy switch |
+| **Sable Room** | Sable = deepest black; "room" keeps the Darkroom echo | none | none | none | Elegant, luxe noir |
+| **Sableroll** | Sable + film roll | none | none | none | Ownable one-word variant |
 | **Hush Roll** | A roll you keep quiet | none | none | "Hush" is a privacy social app and a sleep brand | Weakest: overlaps the existing Hush app |
 
 ## Rejected (taken)
@@ -37,6 +39,8 @@ Brief: keep the darkroom / film-developing world the app already uses (frames, d
 | Obscura / Obscuro | Obscura camera, Obscura: Private Notes & Vault, Obscura VPN |
 | Black Vault, Blackbox, Darkbox | existing photo vault apps |
 | Blackframe, Blackroom, Pitch Black, Gloam, Unlit, Nocta, Nightsafe, Umbra, Velvet Room, Shutter | other apps already use the name |
+| Vanta | Vanta Inc. (security/compliance, US trademarks since 2019, incl. a mobile app filing) + ~9 store apps; Vantablack is Surrey NanoSystems' mark |
+| Onyx, Sable, Abyss, Inkwell, Jet Black | many apps each; "Onyx Vault" is a password manager |
 | Tenebra, Lampblack | developer studios ("Tenebra Studio", "Lampblack Labs") |
 
 ## Before committing to a name (must do by hand)
