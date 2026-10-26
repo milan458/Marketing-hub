@@ -6,6 +6,8 @@ Method: searches of apps.apple.com and play.google.com for each name, then a wid
 
 Brief: keep the darkroom / film-developing world the app already uses (frames, develop, fixer tray, contact sheet), short, ownable, works as "<Name>: Private Photo Vault".
 
+## Round 2 added the darker names (Night Roll, Ravenroll, Coal Room, Hush Roll).
+
 ## Shortlist (no app, company or product found)
 
 | Name | Meaning | App Store | Play | Web / brands | Notes |
@@ -14,6 +16,10 @@ Brief: keep the darkroom / film-developing world the app already uses (frames, d
 | **Keep Dark** | What you do with undeveloped film | none (closest: "Keep Black", an Apple TV screen dimmer) | none | none | Friendly, imperative; two words |
 | **Lightsafe** | Darkroom term for light-tight containers | none | none | none (closest: LiveSafe, LinkSafe) | Clear "safe" signal for search |
 | **Blackslide** | The slide that protects a film holder from light | none | none | none (closest: BLACKSLATE7 clapperboard app) | Ties to the slide-to-draw pattern |
+| **Night Roll** | A roll of film shot after dark; kept out of sight | none (closest: "Roll." apps) | none | a McKenzie lumbar pillow (different field) | Moody, easy to say |
+| **Ravenroll** | Raven = secrets and night; roll = film | none (Raven payments and games exist) | none | none | Most distinctive and ownable; Gothic |
+| **Coal Room** | The pitch-black cellar; echoes "darkroom" | none | none | none | Closest in sound to Darkroom, so an easy switch |
+| **Hush Roll** | A roll you keep quiet | none | none | "Hush" is a privacy social app and a sleep brand | Weakest: overlaps the existing Hush app |
 
 ## Rejected (taken)
 
@@ -27,6 +33,11 @@ Brief: keep the darkroom / film-developing world the app already uses (frames, d
 | Silverbox | SilverBox (Play); Silver Box KTV app |
 | Shadowbox | ShadowBox apps (App Store and Play) |
 | Undeveloped, Boltplate | clear, but weak as brands |
+| Crypta | "Crypta - Gallery Locker", a direct competitor |
+| Obscura / Obscuro | Obscura camera, Obscura: Private Notes & Vault, Obscura VPN |
+| Black Vault, Blackbox, Darkbox | existing photo vault apps |
+| Blackframe, Blackroom, Pitch Black, Gloam, Unlit, Nocta, Nightsafe, Umbra, Velvet Room, Shutter | other apps already use the name |
+| Tenebra, Lampblack | developer studios ("Tenebra Studio", "Lampblack Labs") |
 
 ## Before committing to a name (must do by hand)
 
