@@ -49,3 +49,16 @@ Brief: keep the darkroom / film-developing world the app already uses (frames, d
 2. Domains: `<name>.app` / `.com` / `get<name>.com` at a registrar (Cloudflare Registrar, since the site is on Cloudflare).
 3. Trademarks: USPTO Trademark Search (classes 9 and 42), EUIPO eSearch, UK IPO. Search the exact word and close spellings.
 4. Handles: X, Instagram, TikTok, GitHub.
+
+## Round 4: sci-fi elements (Milan's brief: sci-fi element, short and punchy, unbreakable)
+
+| Name | Result |
+|---|---|
+| **Noxium** | Clear in both stores and on the web. Closest: "Nox" apps (an antivirus, smart locks) and Noxum GmbH (publishing software) |
+| **Vorium** | Clear. Closest: Revorium (payments), Varium, Velorium |
+| **Zyrite** | Clear. Closest: Zyter, Zyte |
+| **Xyrium** | Clear. Closest: Xilium, Eyrium, Xterium (a game) |
+| Kyronite | Clear but reads as "Kryptonite" (DC Comics, Kryptonite locks): rejected |
+| Krypton, Kryptonvault, Kryvault | Krypton (encryption app since 2009), KryptCo KRYPTON marks, KryptoVault, "Krypt: Password & Secure Vault": rejected |
+| Vexium, Kryx, Korium, Vantix, Vantum, Darkium | Taken by existing apps or developers |
+| Nyxen, Ebonite, Obsyd | Clear but close to Nyx apps, the Ebonite bowling brand, and Obsidian |
