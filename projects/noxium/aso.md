@@ -1,6 +1,6 @@
 # Noxium: App Store optimization (ASO)
 
-Draft, 27 October 2026. Facts come from `darkroom-website/site.json`. Nothing here has been checked against real search-volume data yet: confirm the keyword choices in App Store Connect (Apple Ads keyword suggestions show relative popularity) or an ASO tool before submitting.
+Draft, 27 October 2026. Facts come from `darkroom-website/site.json`. Nothing here has been checked against real search-volume data yet. Before submitting, pull Google volumes for the candidate words with gum ([gum-runbook.md](./gum-runbook.md) §1) and check App Store popularity with Apple Ads keyword suggestions.
 
 ## 1. What Apple searches
 

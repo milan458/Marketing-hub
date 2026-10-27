@@ -6,6 +6,7 @@ Noxium photo vault (iPhone/iPad, formerly Darkroom) is the first product we run 
 |---|---|
 | [aso.md](./aso.md) | App Store metadata draft (name, subtitle, keywords, screenshots, custom product pages, ratings) |
 | [launch-plan.md](./launch-plan.md) | Launch timeline from now to day 90, channel by channel |
+| [gum-runbook.md](./gum-runbook.md) | Real Google data via the gum CLI: keyword volumes, Search Console, index checks |
 | [naming-research.md](../darkroom/naming-research.md) | How the name Noxium was picked |
 
 ## What this repo is (and isn't) good for
