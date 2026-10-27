@@ -18,11 +18,13 @@ The argument shapes below were validated against the v2.3.1 schema (they get as 
 
 gum logs in through a browser and keeps tokens in the macOS keychain, so it runs where you are.
 
+Run these one line at a time. Use `ehmo/tap/gum`, not plain `gum`, which is Charm's unrelated tool. The dry run prints the files setup would write; the second setup line gives Claude Code the gum skill and MCP server.
+
 ```bash
 brew tap ehmo/tap https://github.com/ehmo/homebrew-tap
-brew install ehmo/tap/gum   # not plain `brew install gum`, which is Charm's unrelated tool
-gum setup --target claude --features skills,mcp --dry-run   # review the files it writes
-gum setup --target claude --features skills,mcp --yes       # Claude Code gets the gum skill + MCP server
+brew install ehmo/tap/gum
+gum setup --target claude --features skills,mcp --dry-run
+gum setup --target claude --features skills,mcp --yes
 ```
 
 Google Cloud (one project, e.g. "noxium-marketing"):
@@ -33,8 +35,10 @@ Google Cloud (one project, e.g. "noxium-marketing"):
 ```bash
 printf '%s' "$GOOGLE_OAUTH_CLIENT_SECRET" | gum auth use-oauth-client --client-id "$GOOGLE_OAUTH_CLIENT_ID" --secret-stdin
 gum login --service searchconsole
-gum read searchconsole.sites.list            # should list sc-domain:getnoxium.app
+gum read searchconsole.sites.list
 ```
+
+The last line should list `sc-domain:getnoxium.app`.
 
 Keyword Planner needs a Google Ads account (no spend required) and a developer token (Google Ads → Tools → API Center; basic access is enough for Keyword Planner):
 
@@ -42,12 +46,12 @@ Keyword Planner needs a Google Ads account (no spend required) and a developer t
 printf '%s' "$GOOGLE_ADS_DEVELOPER_TOKEN" | gum auth use-ads-developer-token --stdin
 gum login --service googleads
 gum config set googleads.customer_id=<10-digit Ads customer id>
-gum config set googleads.geo_target_constants=2840   # United States
-gum config set googleads.language=1000               # English
+gum config set googleads.geo_target_constants=2840
+gum config set googleads.language=1000
 gum doctor
 ```
 
-Without the geo and language defaults, Keyword Planner returns worldwide, all-language numbers that look like US numbers. Keep them set.
+2840 is the United States and 1000 is English. Without these defaults, Keyword Planner returns worldwide, all-language numbers that look like US numbers. Keep them set.
 
 Never paste the client secret or developer token into a chat; use stdin as above.
 
