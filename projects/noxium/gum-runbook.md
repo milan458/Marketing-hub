@@ -4,7 +4,7 @@
 
 | Need | gum operation | Auth |
 |---|---|---|
-| Real search volumes for the keyword backlog and ASO seed terms | `googleads.keywordPlanIdeas.generateKeywordHistoricalMetrics` | Google Ads OAuth + developer token |
+| Real search volumes for the keyword backlog and ASO seed terms | `googleads.keywordPlanIdeas.generateKeywordHistoricalMetrics` | Google Ads OAuth; Cloud project needs Basic access |
 | New keyword ideas from a seed list or a page URL | `googleads.keywordPlanIdeas.generateKeywordIdeas` | same |
 | Queries, clicks, CTR, position by page (the Thursday refresh) | `searchconsole.searchanalytics.query` | Search Console OAuth |
 | Is a new guide indexed? | `searchconsole.urlInspection.index.inspect` | same |
@@ -40,7 +40,9 @@ gum read searchconsole.sites.list
 
 The last line should list `sc-domain:getnoxium.app`.
 
-Keyword Planner needs a Google Ads account (no spend required) and a developer token (Google Ads → Tools → API Center; basic access is enough for Keyword Planner):
+Keyword Planner needs a Google Ads account (no spend required) and **Basic access for the Google Cloud project** that owns the OAuth client. Since September 2026 Google grants Google Ads API access per Cloud project, not per developer token: request it in Google Cloud Console → Google Ads API → overview page (the old API Center "Apply for Basic Access" link now opens a form that is only for the App Conversion Tracking API). New Basic applications need the project's OAuth brand verified first. Until access is granted, calls fail with "only approved for use with test accounts"; use the Keyword Planner export in the Google Ads web UI meanwhile.
+
+gum 2.3.1 still asks for a developer token. Google now ignores the token header, but gum may refuse to call without one, so store the one you have:
 
 ```bash
 printf '%s' "$GOOGLE_ADS_DEVELOPER_TOKEN" | gum auth use-ads-developer-token --stdin
